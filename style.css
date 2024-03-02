@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#main {
+    height: 100vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.084);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head>.logo {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(0, 76, 255);
+}
+
+.btn {
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    aspect-ratio: 5/2;
+    background-color: rgb(0, 76, 255);
+    color: whitesmoke;
+    font-size: 2vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    width: 35%;
+    height: 10%;
+}
+input#task{
+    height: 100%;
+    width: 100%;
+}
+.listwrap {
+    height: 80%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.list {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 3px;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.item {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.count {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    color: wheat;
+}
+
+p {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: rgb(241, 255, 50);
+}
+
+.true{
+    text-decoration:2px line-through red;
+}
+
+.del {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+}
